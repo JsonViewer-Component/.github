@@ -25,6 +25,6 @@ All projects are licensed under MIT License.
 
 ## 📞 Contact
 
-- Website: [Coming Soon]
-- Email: your-email@example.com
+- Website: [JsonViewer](http://jsonviewer.runasp.net)
+- Email: parsapanahpoor77@gmail.com
 - Discussions: [GitHub Discussions](https://github.com/orgs/JsonViewer/discussions)
