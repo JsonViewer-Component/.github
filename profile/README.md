@@ -1,24 +1,30 @@
-runs-on: ubuntu-latest
+# 🔍 JsonViewer Organization
 
-steps:
-- name: 📥 Checkout
-  uses: actions/checkout@v4
-  
-- name: 🔧 Setup .NET
-  uses: actions/setup-dotnet@v4
-  with:
-    dotnet-version: '8.0.x'
-    
-- name: 📦 Restore
-  run: dotnet restore
-  
-- name: 🔨 Build
-  run: dotnet build --no-restore --configuration Release
-  
-- name: 🧪 Test
-  run: dotnet test --no-build --configuration Release --verbosity normal
-  
-- name: 📊 Upload coverage
-  if: success()
-  uses: codecov/codecov-action@v3
+> Modern, performant JSON viewer components for every framework
 
+## 🌟 Our Projects
+
+| Framework | Repository | Status | Downloads |
+|:---|:---|:---:|:---:|
+| 🟦 **Blazor** | [JsonViewer.Blazor](https://github.com/JsonViewer/blazor) | ✅ Active | ![NuGet](https://img.shields.io/nuget/dt/JsonViewer.Blazor) |
+| ⚛️ **React** | [JsonViewer.React](https://github.com/JsonViewer/react) | 🚧 Coming Soon | - |
+| 🅰️ **Angular** | [JsonViewer.Angular](https://github.com/JsonViewer/angular) | 🚧 Coming Soon | - |
+| 💚 **Vue** | [JsonViewer.Vue](https://github.com/JsonViewer/vue) | 🚧 Coming Soon | - |
+
+## 🎯 Mission
+
+Build the best JSON viewing experience across all modern web frameworks.
+
+## 🤝 Contributing
+
+We welcome contributions! Check individual repositories for guidelines.
+
+## 📄 License
+
+All projects are licensed under MIT License.
+
+## 📞 Contact
+
+- Website: [Coming Soon]
+- Email: your-email@example.com
+- Discussions: [GitHub Discussions](https://github.com/orgs/JsonViewer/discussions)
